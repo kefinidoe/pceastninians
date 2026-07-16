@@ -114,8 +114,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                    <a href="mailto:info@stNinians.org" className="text-muted-foreground text-sm hover:text-primary">
-                      info@stNinians.org
+                    <a href="mailto:info@pceastninians.co.ke" className="text-muted-foreground text-sm hover:text-primary">
+                      info@pceastninians.co.ke
                     </a>
                   </div>
                 </div>

@@ -118,11 +118,11 @@ export default function Terms() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="mailto:info@stNinians.org"
+                  href="mailto:info@pceastninians.co.ke"
                   className="flex items-center gap-3 text-sm text-primary hover:underline"
                 >
                   <Mail className="w-5 h-5" />
-                  info@stNinians.org
+                  info@pceastninians.co.ke
                 </a>
                 <a
                   href="tel:+254721514531"

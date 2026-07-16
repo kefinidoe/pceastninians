@@ -36,7 +36,7 @@ export function ConnectCTA() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email Us</p>
-                    <p className="font-semibold text-foreground">info@stNinians.org</p>
+                    <p className="font-semibold text-foreground">info@pceastninians.co.ke</p>
                   </div>
                 </div>
               </div>
