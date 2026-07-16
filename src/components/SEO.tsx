@@ -7,7 +7,7 @@ interface SEOProps {
   image?: string;
 }
 
-const SITE_URL = "https://pceastninians.lovable.app";
+const SITE_URL = "https://pceastninians.co.ke";
 const DEFAULT_IMAGE = "https://lovable.dev/opengraph-image-p98pqg.png";
 
 export function SEO({ title, description, path, image = DEFAULT_IMAGE }: SEOProps) {

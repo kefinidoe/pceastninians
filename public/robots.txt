@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://pceastninians.lovable.app/sitemap.xml
+Sitemap: https://pceastninians.co.ke/sitemap.xml
