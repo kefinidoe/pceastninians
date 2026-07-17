@@ -11,14 +11,14 @@ const givingOptions = [
     description: "The quickest way to give using your mobile phone.",
     details: [
       { label: "Paybill Number", value: "326377" },
-      { label: "Account Options", value: "Offering, Tithe, Thanksgiving" },
+      { label: "Account Options", value: "Offering, Tithe, Thanksgiving," },
     ],
     steps: [
       "Go to M-Pesa on your phone",
       "Select Lipa na M-Pesa",
       "Select Pay Bill",
       "Enter Business Number: 326377",
-      "Enter Account Name (e.g., Offering, Tithe, or Thanksgiving)",
+      "Enter Account Name (e.g., Offering, Tithe, or Thanksgiving, District Name)",
       "Enter Amount",
       "Enter your M-Pesa PIN",
       "Confirm and send",
