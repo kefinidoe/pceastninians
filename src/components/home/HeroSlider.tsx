@@ -84,7 +84,7 @@ export function HeroSlider() {
       ))}
 
       {/* Content */}
-      <div className="container-church relative z-10 py-20 flex items-center justify-center">
+      <div className="container-church relative z-10 py-20 pb-40 md:pb-20 flex items-center justify-center">
         <div className="max-w-3xl space-y-5 text-center flex flex-col items-center">
           {/* Badge */}
           <div
@@ -157,7 +157,7 @@ export function HeroSlider() {
       </button>
 
       {/* Slide Dots - centered above info bar */}
-      <div className="absolute bottom-32 md:bottom-28 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2">
+      <div className="absolute bottom-44 md:bottom-28 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2">
         {slides.map((_, index) => (
           <button
             key={index}
