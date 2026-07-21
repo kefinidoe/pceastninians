@@ -6,7 +6,7 @@ import youthFellowship from "@/assets/youth-fellowship.jpg";
 import childrenMinistry from "@/assets/children-ministry.jpg";
 import womensGuild from "@/assets/womens-guild.jpg";
 import mensFellowship from "@/assets/mens-fellowship.jpg";
-import brigadeImage from "@/assets/brigade-new.jpg";
+import brigadeImage from "@/assets/brigade.jpg";
 import churchLeaders from "@/assets/church-leaders.jpg";
 import choirImage from "@/assets/choir.jpg";
 import jprcImage from "@/assets/jprc.jpg";
