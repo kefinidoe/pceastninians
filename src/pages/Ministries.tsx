@@ -119,9 +119,11 @@ export default function Ministries() {
           <img 
             src={ministriesHero} 
             alt="Church ministries" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center transform scale-105 transition-transform duration-700 ease-out"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/80 to-primary/70" />
+          {/* Enhanced Overlay: Subtle dark backdrop + smooth directional gradient */}
+          <div className="absolute inset-0 bg-black/30" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/40 backdrop-blur-[2px]" />
         </div>
         <div className="container-church relative z-10">
           <div className="max-w-3xl animate-fade-up">
