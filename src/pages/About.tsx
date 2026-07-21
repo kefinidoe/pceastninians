@@ -4,6 +4,9 @@ import { Button } from "@/components/ui/button";
 import { ChevronRight, Target, Eye, BookOpen, Heart, Cross, HandHeart, ShieldCheck, Sparkles, Users2, Crown, Megaphone, Scale } from "lucide-react";
 import pastorPreaching from "@/assets/pastor-preaching.jpg";
 import { SEO } from "@/components/SEO";
+import churchExterior from "@/assets/church-exterior.jpg";
+// Import the background image
+
 
 const beliefs = [
   {
@@ -59,26 +62,35 @@ export default function About() {
     <Layout>
       <SEO title="About PCEA St. Ninians Nakuru | Our Vision, Mission & Core Values" description="Learn about PCEA St. Ninians Millimani Parish in Nakuru — our vision, mission, core values, and beliefs grounded in Scripture." path="/about" />
       {/* Hero */}
-      <section className="relative py-24 md:py-32 bg-primary overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-white rounded-full blur-3xl" />
-        </div>
-        <div className="container-church relative z-10">
-          <div className="max-w-3xl animate-fade-up">
-            <p className="text-accent font-semibold text-sm uppercase tracking-wider mb-4">
-              About Us
-            </p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary-foreground mb-6">
-              Our Story & Mission
-            </h1>
-            <p className="text-xl text-white/85 leading-relaxed">
-              Learn about our parish history, vision, and the beliefs that guide us 
-              as we serve God and our community in Nakuru.
-            </p>
-          </div>
-        </div>
-      </section>
+      {/* Hero Section */}
+<section className="relative py-24 md:py-32 overflow-hidden bg-gray-900 text-white">
+  {/* Background Image with Overlay for Readability */}
+  <div className="absolute inset-0 z-0">
+    <img 
+      src={churchExterior} 
+      alt="P.C.E.A St. Ninian's Church exterior" 
+      className="w-full h-full object-cover object-center"
+    />
+    {/* Black overlay with opacity to improve text contrast, professional and readable */}
+    <div className="absolute inset-0 bg-black/60 z-1" />
+  </div>
 
+  {/* Content */}
+  <div className="container-church relative z-10">
+    <div className="max-w-3xl animate-fade-up">
+      <p className="text-accent font-semibold text-sm uppercase tracking-wider mb-4">
+        About Us
+      </p>
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6">
+        Our Story & Mission
+      </h1>
+      <p className="text-xl text-white/90 leading-relaxed">
+        Learn about our parish history, vision, and the beliefs that guide us 
+        as we serve God and our community in Nakuru.
+      </p>
+    </div>
+  </div>
+</section>
       {/* Vision & Mission */}
       <section className="section-padding bg-background">
         <div className="container-church">
