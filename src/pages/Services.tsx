@@ -10,12 +10,24 @@ const serviceTimes = [
     time: "8:00 AM - 10:30 AM",
     description: "Our English service featuring traditional hymns, liturgy, and inspiring sermons.",
     style: "English",
+    color: "bg-primary",
+    emoji: "🙏",
+  },
+  {
+    name: "Youth Church",
+    time: "9:00 AM - 11:00 AM",
+    description: "A vibrant, energetic service designed for the youth — featuring contemporary worship, relevant preaching, and fellowship. Every Sunday at the Youth Church.",
+    style: "Youth",
+    color: "bg-accent",
+    emoji: "🔥",
   },
   {
     name: "Kiswahili Service",
     time: "10:30 AM - 12:30 PM",
     description: "Huduma yetu ya Kiswahili with vibrant worship, full choir, and children's programs.",
     style: "Kiswahili",
+    color: "bg-primary",
+    emoji: "🌟",
   },
 ];
 
@@ -89,29 +101,57 @@ export default function Services() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {serviceTimes.map((service, index) => (
-              <div
-                key={service.name}
-                className="bg-card rounded-2xl p-8 shadow-soft hover:shadow-medium transition-shadow animate-fade-up"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
-                    <Clock className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div>
-                    <h3 className="font-serif font-semibold text-xl text-foreground">
-                      {service.name}
-                    </h3>
-                    <span className="text-xs font-medium text-accent uppercase">{service.style}</span>
-                  </div>
-                </div>
-                <p className="text-2xl font-bold text-primary mb-3">{service.time}</p>
-                <p className="text-muted-foreground">{service.description}</p>
-              </div>
-            ))}
-          </div>
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+  {serviceTimes.map((service, index) => (
+    <div
+      key={service.name}
+      className={`relative bg-card rounded-2xl p-8 shadow-soft hover:shadow-medium transition-all duration-300 hover:-translate-y-1 animate-fade-up overflow-hidden ${
+        service.style === "Youth" ? "border-2 border-accent" : ""
+      }`}
+      style={{ animationDelay: `${index * 100}ms` }}
+    >
+      {/* Youth badge */}
+      {service.style === "Youth" && (
+        <div className="absolute top-4 right-4 bg-accent text-accent-foreground text-xs font-bold px-2 py-1 rounded-full">
+          NEW ✨
+        </div>
+      )}
+
+      {/* Background emoji watermark */}
+      <span className="absolute -bottom-4 -right-2 text-8xl opacity-5 select-none">
+        {service.emoji}
+      </span>
+
+      <div className="flex items-center gap-3 mb-4">
+        <div className={`w-12 h-12 ${service.color} rounded-xl flex items-center justify-center text-2xl`}>
+          {service.emoji}
+        </div>
+        <div>
+          <h3 className="font-serif font-semibold text-xl text-foreground">
+            {service.name}
+          </h3>
+          <span className={`text-xs font-bold uppercase ${
+            service.style === "Youth" ? "text-accent" : "text-primary"
+          }`}>
+            {service.style}
+          </span>
+        </div>
+      </div>
+
+      <p className={`text-2xl font-bold mb-3 ${
+        service.style === "Youth" ? "text-accent" : "text-primary"
+      }`}>
+        {service.time}
+      </p>
+      <p className="text-muted-foreground text-sm leading-relaxed">{service.description}</p>
+
+      <div className="mt-4 flex items-center gap-2 text-xs text-muted-foreground">
+        <Clock className="w-3 h-3" />
+        <span>Every Sunday</span>
+      </div>
+    </div>
+  ))}
+</div>
 
           {/* Location */}
           <div className="mt-12 bg-secondary/50 rounded-2xl p-8 max-w-4xl mx-auto animate-fade-up animation-delay-300">

@@ -161,7 +161,7 @@ export default function School() {
           <div className="inline-flex items-center gap-3 bg-accent/20 backdrop-blur-sm border border-accent/40 px-6 py-3 rounded-full mb-8 animate-fade-up animation-delay-200">
             <span className="text-accent font-bold text-sm uppercase tracking-wider">Motto</span>
             <span className="w-px h-4 bg-white/40" />
-            <span className="text-white font-serif italic text-base md:text-lg">"Education is the way to go"</span>
+            <span className="text-white font-serif italic text-base md:text-lg">"Nuturing minds, bulding future"</span>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-300">
