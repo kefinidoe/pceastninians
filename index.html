@@ -73,42 +73,68 @@
           "description": "English Service 8:30 AM, Kiswahili Service 10:30 AM"
         }
       ],
-      "event": [
-        {
-          "@type": "Event",
-          "name": "English Sunday Service",
-          "startDate": "2026-01-04T08:30:00+03:00",
-          "eventSchedule": {
-            "@type": "Schedule",
-            "byDay": "https://schema.org/Sunday",
-            "startTime": "08:30",
-            "endTime": "10:30"
-          },
-          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-          "location": {
-            "@type": "Place",
-            "name": "PCEA St. Ninians Nakuru",
-            "address": "Millimani, near Nakuru CBD, Nakuru, Kenya"
-          }
-        },
-        {
-          "@type": "Event",
-          "name": "Kiswahili Sunday Service",
-          "startDate": "2026-01-04T10:30:00+03:00",
-          "eventSchedule": {
-            "@type": "Schedule",
-            "byDay": "https://schema.org/Sunday",
-            "startTime": "10:30",
-            "endTime": "12:30"
-          },
-          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-          "location": {
-            "@type": "Place",
-            "name": "PCEA St. Ninians Nakuru",
-            "address": "Millimani, near Nakuru CBD, Nakuru, Kenya"
-          }
-        }
-      ],
+     "event": [
+  {
+    "@type": "Event",
+    "name": "English Sunday Service",
+    "description": "Join us every Sunday for our English worship service at PCEA St. Ninians Millimani Parish, Nakuru.",
+    "startDate": "2026-01-04T08:30:00+03:00",
+    "endDate": "2026-01-04T10:30:00+03:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "performer": {
+      "@type": "Person",
+      "name": "Rev. Fredrick Waweru Kirathi"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "KES",
+      "availability": "https://schema.org/InStock"
+    },
+    "eventSchedule": {
+      "@type": "Schedule",
+      "byDay": "https://schema.org/Sunday",
+      "startTime": "08:30",
+      "endTime": "10:30"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "PCEA St. Ninians Nakuru",
+      "address": "Millimani, near Nakuru CBD, Nakuru, Kenya"
+    }
+  },
+  {
+    "@type": "Event",
+    "name": "Kiswahili Sunday Service",
+    "description": "Join us every Sunday for our Kiswahili worship service at PCEA St. Ninians Millimani Parish, Nakuru.",
+    "startDate": "2026-01-04T10:30:00+03:00",
+    "endDate": "2026-01-04T12:30:00+03:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "performer": {
+      "@type": "Person",
+      "name": "Rev. Fredrick Waweru Kirathi"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "KES",
+      "availability": "https://schema.org/InStock"
+    },
+    "eventSchedule": {
+      "@type": "Schedule",
+      "byDay": "https://schema.org/Sunday",
+      "startTime": "10:30",
+      "endTime": "12:30"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "PCEA St. Ninians Nakuru",
+      "address": "Millimani, near Nakuru CBD, Nakuru, Kenya"
+    }
+  }
+]
       "image": "https://pceastninians.co.ke/favicon.png",
       "@id": "https://pceastninians.co.ke/#church"
     }
