@@ -165,7 +165,7 @@ export default function About() {
               { letter: "D", title: " Diligence", icon: Users2, description: " We act intentionally, strategically, and with excellence. " },
                { letter: "S", title: "  Sympathy ", icon: HandHeart, description: "(Represents Compassion " },
             ].map((value, index) => (
-            ].map((value, index) => (
+          
               <div
                 key={value.letter}
                 className="bg-card rounded-xl p-6 shadow-soft hover:shadow-medium transition-shadow animate-fade-up relative overflow-hidden"
