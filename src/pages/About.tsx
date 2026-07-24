@@ -161,6 +161,10 @@ export default function About() {
               { letter: "T", title: "Togetherness", icon: Users2, description: "Representing unity and inclusivity — we promote harmony, diversity, and mutual respect." },
               { letter: "L", title: "Leadership Availability", icon: Crown, description: "We ensure accessible, approachable, and supportive leadership." },
               { letter: "E", title: "Evangelism", icon: Megaphone, description: "We actively share the Gospel and disciple believers." },
+              { letter: "A", title: " Adaptability", icon: Cross, description: "We remain flexible and responsive to changing contexts." },
+              { letter: "D", title: " Diligence", icon: Users2, description: " We act intentionally, strategically, and with excellence. " },
+               { letter: "S", title: "  Sympathy ", icon: HandHeart, description: "(Represents Compassion " },
+            ].map((value, index) => (
             ].map((value, index) => (
               <div
                 key={value.letter}
@@ -292,46 +296,96 @@ export default function About() {
       </div>
     </div>
 
-    {/* Current Leadership */}
+    {/* Strategic Pillars */}
     <div className="mt-20 animate-fade-up">
-      <div className="text-center max-w-2xl mx-auto mb-10">
-        <p className="text-accent font-semibold text-sm uppercase tracking-wider mb-3">
-          Current Leadership
-        </p>
-        <h3 className="text-2xl sm:text-3xl font-serif font-bold text-foreground mb-4">
-          Parish Leadership Since 2023
+     <div className="text-center max-w-2xl mx-auto mb-12">
+       <p className="text-accent font-semibold text-sm uppercase tracking-wider mb-3">
+      Our Strategic Direction
+       </p>
+       <h3 className="text-2xl sm:text-3xl font-serif font-bold text-foreground mb-4">
+         Strategic Pillars
         </h3>
-        <p className="text-muted-foreground text-sm">
-          Serving PCEA St. Ninians Milimani Parish with dedication and faithfulness.
+        <p className="text-muted-foreground text-sm leading-relaxed">
+          Seven pillars guiding PCEA St. Ninians Millimani Parish toward holistic transformation and growth.
         </p>
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
         {[
-          { role: "Moderator", name: "Rev. Fredrick Waweru Kirathi" },
-          { role: "Session Clerk", name: "Elder Samuel G Maina" },
-          { role: "Treasurer", name: "Elder Zipporah Kiongo (2025 – to date)" },
-          { role: "Finance Committee Chairman", name: "Elder Johana Mundia" },
-          { role: "Co-Clerk", name: "Elder Felistas Kamau" },
-          { role: "Evangelist", name: "Elder Paul Kangethe" },
-          { role: "Office Secretary", name: "Tabitha Karanja" },
-          { role: "Church Chairman", name: "Elder Michael Njaramba" },
-          { role: "Registrar", name: "Elder Beatrice Kamau (2025 – to date)" },
-          { role: "Church Treasurer", name: "Ms. Lilian Gitau (2026 – to date)" },
-          { role: "Retired Minister", name: "Rev. John Muriithi Mutahi" },
-        ].map((leader, index) => (
-          <div
-            key={leader.role}
-            className="bg-card rounded-xl p-5 shadow-soft border border-border/50 text-center animate-fade-up"
-            style={{ animationDelay: `${index * 60}ms` }}
+        {
+        number: "01",
+        title: "Outreach & Faith Formation",
+        description: "Spreading the Gospel and nurturing believers in their faith journey.",
+        icon: "🌍",
+        },
+        {
+        number: "02",
+        title: "Pastoral Care & Social Responsibility",
+        description: "Caring for our congregation and serving the wider community with compassion.",
+        icon: "🤝",
+        },
+         {
+        number: "03",
+        title: "Inclusivity",
+        description: "Welcoming all people regardless of background, age, or circumstance.",
+        icon: "🫂",
+        },
+        {
+        number: "04",
+        title: "Governance & Leadership",
+        description: "Upholding accountability, transparency, and Godly leadership at all levels.",
+        icon: "⚖️",
+        },
+        {
+        number: "05",
+        title: "Infrastructure & Sustainability",
+        description: "Building and maintaining facilities that serve the church for generations.",
+        icon: "🏛️",
+        },
+         {
+        number: "06",
+        title: "ICT",
+        description: "Leveraging technology to enhance ministry, communication, and outreach.",
+        icon: "💻",
+        },
+        {
+        number: "07",
+        title: "Social Impact & Empowerment",
+        description: "Transforming lives through education, health, and community development.",
+        icon: "✨",
+        },
+        ].map((pillar, index) => (
+        <div
+          key={pillar.number}
+          className="relative bg-card rounded-xl p-6 shadow-soft border border-border/50 hover:shadow-medium transition-all duration-300 animate-fade-up overflow-hidden group"
+          style={{ animationDelay: `${index * 80}ms` }}
           >
-            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-              <Crown className="w-5 h-5 text-primary" />
-            </div>
-            <p className="text-xs text-accent font-semibold uppercase tracking-wider mb-1">{leader.role}</p>
-            <p className="font-semibold text-foreground text-sm">{leader.name}</p>
+          {/* Background number */}
+          <span className="absolute -bottom-3 -right-2 text-7xl font-bold text-primary/5 select-none group-hover:text-primary/10 transition-colors">
+          {pillar.number}
+          </span>
+
+          {/* Icon */}
+          <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 text-2xl group-hover:bg-primary/20 transition-colors">
+            {pillar.icon}
           </div>
-        ))}
+
+          {/* Pillar number badge */}
+          <span className="inline-block text-xs font-bold text-accent bg-accent/10 px-2 py-0.5 rounded-full mb-2">
+            Pillar {pillar.number}
+          </span>
+
+          {/* Title */}
+          <h4 className="font-serif font-bold text-foreground text-sm mb-2 leading-snug">
+           {pillar.title}
+          </h4>
+
+          {/* Description */}
+          <p className="text-muted-foreground text-xs leading-relaxed relative z-10">
+            {pillar.description}
+          </p>
+        </div>
+      ))}
       </div>
     </div>
   </div>

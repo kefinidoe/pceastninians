@@ -188,7 +188,7 @@ export function HeroSlider() {
               </div>
               <div>
                 <p className="font-semibold text-foreground text-sm">English Service: 8:30 AM</p>
-                <p className="text-xs text-muted-foreground">Kiswahili Service: 10:30 AM • Every Sunday</p>
+                <p className="font-semibold text-foreground text-sm">Kiswahili Service: 10:30 AM • Every Sunday</p>
               </div>
             </div>
             <div className="flex items-center justify-center md:justify-start gap-3">
@@ -196,7 +196,7 @@ export function HeroSlider() {
                 <span className="text-white font-bold">📍</span>
               </div>
               <div>
-                <p className="font-semibold text-foreground text-sm font-bold">Near Showgrounds</p>
+                <p className="font-semibold text-foreground text-sm font-bold">Near Showground</p>
                 <p className="text-xs text-muted-foreground">Millimani, Nakuru</p>
               </div>
             </div>
