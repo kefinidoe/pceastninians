@@ -19,6 +19,7 @@ import School from "./pages/School";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
+import YouthChurch from "./pages/YouthChurch";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/services" element={<Services />} />
           <Route path="/ministries" element={<Ministries />} />
           <Route path="/sermons" element={<Sermons />} />
+          <Route path="/youth-church" element={<YouthChurch />} />
           <Route path="/events" element={<Events />} />
           <Route path="/prayer-request" element={<PrayerRequest />} />
           <Route path="/giving" element={<Giving />} />

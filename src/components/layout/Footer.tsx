@@ -5,6 +5,7 @@ const quickLinks = [
   { name: "About Us", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "Ministries", href: "/ministries" },
+  { name: "Youth Church", href: "/youth-church" },
   { name: "Events", href: "/events" },
   { name: "Sermons", href: "/sermons" },
   { name: "Contact", href: "/contact" },
