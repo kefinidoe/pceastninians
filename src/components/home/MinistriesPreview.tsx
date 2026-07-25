@@ -21,7 +21,7 @@ const ministries = [
   },
   {
     id: "womens-guild",
-    title: "Women's Guild",
+    title: "woman's Guild",
     description: "United in faith, service, and sisterhood through Bible study and community outreach.",
     schedule: "Wednesdays at 2:00 PM",
   },

@@ -51,7 +51,7 @@ const events = [
   },
   {
     id: 4,
-    title: "Women's Guild Bible Study",
+    title: "woman's Guild Bible Study",
     date: "2026-01-22",
     time: "2:00 PM - 4:00 PM",
     location: "Fellowship Hall",

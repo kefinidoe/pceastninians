@@ -7,7 +7,7 @@
 - [Home](/): Overview, service times, hero highlights, and announcements.
 - [About Us](/about): Vision, mission, core values, beliefs, and parish minister.
 - [Sunday Services](/services): English and Kiswahili service times and what to expect.
-- [Ministries](/ministries): Youth, Women's Guild, Men's Fellowship, Children, Choir, Brigade, Evangelism, and more.
+- [Ministries](/ministries): Youth, woman's Guild, Men's Fellowship, Children, Choir, Brigade, Evangelism, and more.
 - [Districts](/districts): The 12 districts of the parish and their meeting times.
 - [Our School](/school): PCEA St. Ninians Christian School — motto "Education is the way to go".
 - [Sermons](/sermons): Recent sermons and messages from our YouTube channel.

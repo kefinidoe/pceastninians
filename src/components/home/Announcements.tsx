@@ -21,7 +21,7 @@ const announcements = [
   },
   {
     id: 3,
-    title: "Women's Guild Bible Study",
+    title: "woman's Guild Bible Study",
     date: "Every Wednesday",
     time: "2:00 PM",
     description: "Weekly Bible study for all women. New series on the Book of Esther begins this week.",

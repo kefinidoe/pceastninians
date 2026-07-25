@@ -19,7 +19,7 @@ const ministries = [
   },
   {
     id: "womens-guild",
-    title: "Women's Guild",
+    title: "woman's Guild",
     image: womensGuild,
   },
   {

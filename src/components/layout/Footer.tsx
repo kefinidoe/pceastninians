@@ -13,7 +13,7 @@ const quickLinks = [
 
 const ministryLinks = [
   { name: "Youth Fellowship", href: "/ministries#youth" },
-  { name: "Women's Guild", href: "/ministries#womens-guild" },
+  { name: "woman's Guild", href: "/ministries#womens-guild" },
   { name: "Men's Fellowship", href: "/ministries#mens-fellowship" },
   { name: "Children's Ministry", href: "/ministries#children" },
   { name: "Choir", href: "/ministries#choir" },

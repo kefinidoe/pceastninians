@@ -72,7 +72,7 @@ const ministries = [
     title: "Woman's Guild",
     description: "A ministry for women of all ages to grow spiritually, serve the church and community, and build meaningful relationships. Through fellowship and outreach, we support one another in our walk with Christ.",
     schedule: "Wednesdays at 2:00 PM",
-    activities: ["Community outreach", "Women's conferences", "Mentorship programs", "Fellowship gatherings", "Charitable initiatives"],
+    activities: ["Community outreach", "woman's conferences", "Mentorship programs", "Fellowship gatherings", "Charitable initiatives"],
     mentorship: "Woman's mentorship program nurturing spiritual mothers and emerging women leaders",
     image: womensGuild,
   },
@@ -111,7 +111,7 @@ const ministries = [
 export default function Ministries() {
   return (
     <Layout>
-      <SEO title="Our Ministries | PCEA St. Ninians Nakuru" description="Explore our church ministries in Nakuru — youth, women's guild, men's fellowship, children, choir, brigade, evangelism and more." path="/ministries" />
+      <SEO title="Our Ministries | PCEA St. Ninians Nakuru" description="Explore our church ministries in Nakuru — youth, woman's guild, men's fellowship, children, choir, brigade, evangelism and more." path="/ministries" />
       {/* Hero */}
       <section className="relative py-24 md:py-32 overflow-hidden">
         {/* Background Image */}
