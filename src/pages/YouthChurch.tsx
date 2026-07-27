@@ -19,10 +19,10 @@ import {
   Flame,
 } from "lucide-react";
 
-import youthHero from "@/assets/youthchurh(2).jpg";
+import youthHero from "@/assets/youthchurch.jpg";
 import youthFellowship1 from "@/assets/youth-fellowship.jpg";
 import youthFellowship2 from "@/assets/youth-mentorship.jpg";
-import youthGroup from "@/assets/youthchurch.jpeg";
+import youthGroup from "@/assets/youthchurh(2).jpeg";
 import youthGroup2 from "@/assets/youthchurch(3).jpeg";
 import youthPastor from "@/assets/youth-pastor.jpeg";
 import patron from "@/assets/patron.jpg";
