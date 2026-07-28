@@ -25,7 +25,7 @@ export default function PrayerRequest() {
 
     try {
       await emailjs.send(
-        "service_p0lw088",
+        "service_v1kuml3",
         "template_n2j3lfw",
         {
           from_name: formData.anonymous ? "Anonymous" : formData.name || "Not provided",
