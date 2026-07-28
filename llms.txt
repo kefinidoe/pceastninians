@@ -1,0 +1,20 @@
+# PCEA St. Ninians Nakuru
+
+> Presbyterian Church of East Africa, St. Ninians Millimani Parish in Nakuru, Kenya. A welcoming congregation near Nakuru CBD and the Showgrounds offering English (8:30 AM) and Kiswahili (10:30 AM) Sunday services, ministries for every age, and the PCEA St. Ninians Christian School.
+
+## Pages
+
+- [Home](/): Overview, service times, hero highlights, and announcements.
+- [About Us](/about): Vision, mission, core values, beliefs, and parish minister.
+- [Sunday Services](/services): English and Kiswahili service times and what to expect.
+- [Ministries](/ministries): Youth, woman's Guild, Men's Fellowship, Children, Choir, Brigade, Evangelism, and more.
+- [Districts](/districts): The 12 districts of the parish and their meeting times.
+- [Our School](/school): PCEA St. Ninians Christian School — motto "Education is the way to go".
+- [Sermons](/sermons): Recent sermons and messages from our YouTube channel.
+- [Events](/events): Upcoming events and the church calendar, including Youth Week 2026.
+- [Giving](/giving): Tithes and offerings via M-Pesa Paybill 326377.
+- [Contact](/contact): Location near Showgrounds in Millimani, Nakuru; phone and email.
+
+## Optional
+
+- [Prayer Request](/prayer-request): Submit a prayer request to the prayer team.
